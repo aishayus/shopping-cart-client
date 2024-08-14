@@ -11,7 +11,7 @@ const ProductList = () => {
   useEffect(() => {
     const fetchProducts = async () => {
       try {
-        const response = await axios.get('https://shopping-cart-vkws.onrender.com/api/products');
+        const response = await axios.get('https://shopping-cart-1-3o9o.onrender.com/api/products');
         setProducts(response.data);
       } catch (error) {
         console.error("Error fetching products:", error);
